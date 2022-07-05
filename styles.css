@@ -96,3 +96,12 @@ form button:hover {
     transform: translateY(8rem) rotateZ(20deg);
     opacity: 0;
 }
+
+@media screen and (max-width: 602px){
+    .todo-input {
+        width: 70vw;
+    }
+    .todo-list {
+        width: 70vw;
+    }
+}
